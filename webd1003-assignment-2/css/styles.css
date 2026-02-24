@@ -1,0 +1,49 @@
+/* Utilities & Containers */
+:root {
+    --primary-red: #BD3A5A;
+    --off-white: #F8FAFC;
+    --secondary-blue: #005A8F;
+    --tertiary-blue: #002439;
+    --hover-red: #84283F; 
+    --primary-text: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1310px;
+    padding: 1rem;
+}
+
+body {
+    background-color: var(--off-white);
+}
+
+.flex-container {
+    display: flex;
+}
+
+section .banner {
+    background-color: var(--secondary-blue);
+}
+/* Global Typography */
+body {
+    font-family: var(--primary-text);
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+/* Header & Footer */
+/* Main Content */
